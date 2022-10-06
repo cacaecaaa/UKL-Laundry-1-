@@ -1,0 +1,104 @@
+.main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.card .card-body .card-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card .card-body .card-text{
+  font-size: 15px;
+}
+
+.card .button {
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #e6bc15;
+  border: none;
+  border-radius: 5px;
+}
+
+.card .button:hover{
+  background-color: #1fae51;
+  color: white;
+}
+
+table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 55%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 200px;
+  background-color: #fff;
+}
+
+th, td {
+  height: 50px;
+}
+
+select {
+  font-size: 15px;
+  padding: 5px 7px;
+  margin-bottom: 10px;
+}
+
+.card .button_checkout {
+  padding: 10px 20px;
+  /* float: right;
+  margin-top: -400px;
+  margin-right: 550px;
+  margin-left: 150px; */
+  padding: 10px 41%;
+  border-radius: 5px;
+  background-color: #e6bc15;
+  border: none;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.button_checkout:hover{
+  background-color: #1fae51;
+  color: #fff;
+}
+
+/*.main_content a {
+  float: right;
+  margin-top: -400px;
+  margin-right: 965px;
+}*/
+
+.card .jml {
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
